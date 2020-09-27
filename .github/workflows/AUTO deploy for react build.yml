@@ -30,7 +30,19 @@ jobs:
       # installing Node-Modules/Depedencies for react 
       - name: installing Dependencies
         run: npm install
-        
+
+# to install yarn
+#       - name: GitHub Action for Yarn
+#       uses: Borales/actions-yarn@v2.3.0
+#       with:
+        # Yarn command
+#         cmd: install
+ 
+# CREATe build for react project defaults:
+#       - name: Create build to deploy
+#         run: yarn build
+  
+
       # CREATe build for react project
       - name: Create build to deploy
         run: npm run build
